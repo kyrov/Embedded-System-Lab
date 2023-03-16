@@ -1,0 +1,13 @@
+main.c:137:5:main	1
+main.c:240:6:SystemClock_Config	3
+main.c:287:13:MX_USART2_UART_Init	2
+main.c:320:13:MX_GPIO_Init	1
+main.c:382:6:StartDefaultTask	1
+main.c:400:6:StartTask02	1
+main.c:419:6:StartTask03	1
+main.c:438:6:StartTask04	1
+main.c:457:6:StartTask05	1
+main.c:476:6:StartTask06	1
+main.c:500:6:StartTask07	1
+main.c:524:6:StartTask08	2
+main.c:546:6:Error_Handler	1

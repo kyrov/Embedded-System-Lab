@@ -1,0 +1,10 @@
+../Core/Src/main.c:70:5:main	48	static
+../Core/Src/main.c:142:6:SystemClock_Config	88	static
+../Core/Src/main.c:189:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:222:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:276:6:Timer_Callback_1	16	static
+../Core/Src/main.c:279:6:Timer_Callback_2	16	static
+../Core/Src/main.c:282:6:Timer_Callback_3	16	static
+../Core/Src/main.c:285:6:Timer_Callback_4	16	static
+../Core/Src/main.c:297:6:StartDefaultTask	64	static
+../Core/Src/main.c:324:6:Error_Handler	4	static,ignoring_inline_asm

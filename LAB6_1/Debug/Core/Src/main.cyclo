@@ -1,0 +1,10 @@
+main.c:68:5:main	1
+main.c:140:6:SystemClock_Config	3
+main.c:187:13:MX_USART2_UART_Init	2
+main.c:220:13:MX_GPIO_Init	1
+main.c:273:6:led_thread_1	1
+main.c:279:6:led_thread_2	1
+main.c:285:6:led_thread_3	1
+main.c:291:6:led_thread_4	1
+main.c:306:6:StartDefaultTask	1
+main.c:329:6:Error_Handler	1
