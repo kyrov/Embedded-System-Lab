@@ -39,11 +39,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_line   0000996f  00000000  00000000  000400ab  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00087816  00000000  00000000  00049a1a  2**0
+ 18 .debug_str    0008782e  00000000  00000000  00049a1a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000050  00000000  00000000  000d1230  2**0
+ 19 .comment      00000050  00000000  00000000  000d1248  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  000026a0  00000000  00000000  000d1280  2**2
+ 20 .debug_frame  000026a0  00000000  00000000  000d1298  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -748,6 +748,8 @@ static void MX_GPIO_Init(void)
  800071c:	609a      	str	r2, [r3, #8]
  800071e:	60da      	str	r2, [r3, #12]
  8000720:	611a      	str	r2, [r3, #16]
+/* USER CODE BEGIN MX_GPIO_Init_1 */
+/* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOC_CLK_ENABLE();
@@ -841,6 +843,8 @@ static void MX_GPIO_Init(void)
  80007c8:	4805      	ldr	r0, [pc, #20]	; (80007e0 <MX_GPIO_Init+0xd4>)
  80007ca:	f000 fa73 	bl	8000cb4 <HAL_GPIO_Init>
 
+/* USER CODE BEGIN MX_GPIO_Init_2 */
+/* USER CODE END MX_GPIO_Init_2 */
 }
  80007ce:	bf00      	nop
  80007d0:	3728      	adds	r7, #40	; 0x28
